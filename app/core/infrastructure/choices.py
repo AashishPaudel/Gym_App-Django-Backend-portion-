@@ -1,0 +1,20 @@
+ADMIN = "ADMIN"
+GYM = "GYM"
+CUSTOMER = "CUSTOMER"
+
+
+PROFILE_TYPES = (
+    (ADMIN, "ADMIN"),
+    (GYM, "GYM"),
+    (CUSTOMER, "CUSTOMER"),
+)
+
+
+MALE = "MALE"
+FEMALE = "FEMALE"
+
+
+GENDER_TYPES = (
+    (MALE, "MALE"),
+    (FEMALE, "FEMALE"),
+)
