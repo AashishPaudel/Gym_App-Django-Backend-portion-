@@ -178,15 +178,3 @@ SIMPLE_JWT = {
 }
 
 AUTH_USER_MODEL = 'accounts.User'
-
-
-# EMAIL SMTP SETUP
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "ashish.fayg@gmail.com"
-EMAIL_HOST_PASSWORD = "Test123@1"
-
-
-KHALTI_SECRET_KEY = "test_secret_key_f7d8c88e40654d9e8c078ca4b9054efe"
-KHALTI_VERIFY_URL = "https://khalti.com/api/v2/payment/verify/"
